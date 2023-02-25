@@ -1,7 +1,7 @@
 .main{
     background-color: rgba(237, 168, 112, 0.932);
     width: 400px;
-    max-width: 800px;
+    max-width: 900px;
     text-align: center;
     margin: auto;
     height: 800px;
@@ -39,4 +39,11 @@
     display: flex;
     align-items: center;
     padding: 1rem;
+}
+.cardback{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
 }
