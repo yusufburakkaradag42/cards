@@ -15,7 +15,7 @@ const CardTitle = ({ name, img, options }) => {
         <div className='card col-6' role='button' onClick={() => setToggle(!toggle)} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
             {toggle ?
                 <div>
-                    <img src={img} alt="" width='150px' height='100px' />
+                    <img src={img} alt="" width='100px' height='100px' />
                     <h6>{name}</h6>
                 </div>
                 :
