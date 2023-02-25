@@ -8,7 +8,7 @@ const Card = () => {
   return (
     <div className='box text-center'>
         <div className='title'>
-            <img src={img1} alt="" width='160px' />
+            <img src={img1} alt="" width='200px' />
         </div>
         <div className="main">
             <h1 className='text-light' >Languages</h1>
