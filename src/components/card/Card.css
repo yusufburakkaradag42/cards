@@ -1,25 +1,25 @@
 .main{
-    background-color: rgba(237, 168, 112, 0.932);
-    width: 400px;
-    max-width: 900px;
+    background-color: rgba(184, 90, 14, 0.932);
+    width: 500px;
+    max-width: 600px;
     text-align: center;
     margin: auto;
     height: 750px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-    margin-top:10px ;
-  
+    margin-top: 10px;
+    
+    
 
 }
-
 .strip{
-    width: 50px;
+    width: 80px;
     height: 900px;
     transform: rotate(140deg);
     position: absolute;
     left: 200px;
-    background-color: cornflowerblue;
+    background-color: rgb(237, 184, 100);
     z-index: 1;
 
 }
@@ -27,27 +27,22 @@
     position: absolute;
     z-index: 5;
     margin: 1rem;
-    gap: 1rem;
-    
- 
+    gap: 1.5rem;
+   
 }
 .card{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    margin: auto;
     margin-top: 10px;
-    height: 140px;
     width: 160px;
+    height: 140px;
+    margin: auto;
     display: flex;
     align-items: center;
-    padding: 1rem;
-}
-.cardback{
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+    text-align: center;
+    padding: 10px;
+    
+    
 }
 .box{
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
